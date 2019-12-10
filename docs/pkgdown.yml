@@ -1,0 +1,6 @@
+pandoc: 2.7.3
+pkgdown: 1.4.1
+pkgdown_sha: ~
+articles:
+  imdbr_tutorial: imdbr_tutorial.html
+

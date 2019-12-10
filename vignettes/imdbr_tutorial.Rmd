@@ -1,0 +1,45 @@
+---
+title: "imdbr_tutorial"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{imdbr_tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(imdbr)
+```
+
+Get the imdb id of "sherlock".
+```{r}
+get_id(name = "sherlock")
+```
+
+Get the overview information of "game of thrones".
+```{r}
+overview(name = "game of thrones")
+```
+
+Get crew information of "inception".
+```{r}
+top_crew(name = "inception")
+```
+
+Get characters' information of "interstellar".
+```{r}
+characters(name = "interstellar")
+```
+
+Get more like "2012".
+```{r}
+more(name = "2012")
+```
+
