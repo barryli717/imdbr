@@ -28,7 +28,7 @@ devtools::install_github("barryli717/imdbr")
 ```
 
 ## 4. Functions
-- `get_id()`: return the title of a certain movie or show;
+- `get_id()`: return the imdb id of a certain movie or show;
 - `overview()`: get overview of a title;
 - `top_crew()`: get information about top crews;
 - `characters()`: get character information;
